@@ -134,9 +134,18 @@ button {
     width: 50px;
     height: 100vh;
     position:absolute;
-    right: 0;
-    top: 0;
+    right: 500px;
+    top: 480px;
+    /*bottom: 100px;*/
     cursor: pointer;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links a{
+    flex: row;
 }
 
 .prifpic{
