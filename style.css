@@ -136,7 +136,6 @@ button {
     position:absolute;
     right: 500px;
     top: 480px;
-    /*bottom: 100px;*/
     cursor: pointer;
 }
 
@@ -146,6 +145,19 @@ button {
 
 .social-links a{
     flex: row;
+}
+
+@media (min-width:0) and (max-width:1099px){
+    #social-bar{
+        right: 0;
+        top: 0;
+    }
+}
+
+@media (min-width:0) and (max-width:1099px){
+    #links a{
+        flex: column;
+    }
 }
 
 .prifpic{
@@ -159,6 +171,12 @@ button {
     
     right: 0px;
     top:0px;
+}
+
+@media (min-width:0) and (max-width:1099px){
+    #propic{
+        display: none;
+    }
 }
 
 .iamcoding{
@@ -178,6 +196,8 @@ button {
         width: 29ch;
     }
 }
+
+
 
 /*
 .container{
