@@ -120,6 +120,7 @@ h1{
 
 button {
     color: #ffba5e;
+    margin: 15px;
     padding: 10px 25px;
     background: transparent;
     border: 1px solid #ffba5e;
@@ -138,6 +139,25 @@ button {
     cursor: pointer;
 }
 
+.iamcoding {
+    position:absolute;
+    right: 300px;
+    top:200px;
+    animation: type 3s steps(29);
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+@keyframes type {
+    0% {
+        width:0ch;
+    }
+    100% {
+        width: 29ch;
+    }
+}
+
+/*
 .container{
     position: relative;
     width: 100%;
@@ -190,6 +210,8 @@ button {
     position: absolute;
     top: -66.66px;
 }
+*/
+
 
 /*about me*/
 
